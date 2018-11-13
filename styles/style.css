@@ -15,12 +15,19 @@ nav {
 nav > button {
     width: 80px;
     height: 50px;
+    background-color: palevioletred;
+    font-size: 1.2rem;
+    text-decoration: underline;
 }
 
 section {
     background: plum;
     height: 85vh;
     margin-top: 20px;
+}
+
+h1{
+    font-size: 1.9rem;
 }
 
 span {
@@ -34,6 +41,7 @@ span > h1 {
 }
 
 span > section {
+    border: 10px solid orange;
     background-color: olive;
     width: 400px;
     height: 400px;
