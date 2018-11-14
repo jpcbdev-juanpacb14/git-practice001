@@ -54,6 +54,15 @@ span>section {
     color: whitesmoke;
 }
 
+#blog {
+    font-size: 1.6rem;
+}
+
+section>img {
+    width: 100%;
+    height: 70%;
+}
+
 #contact {
     font-size: 1.5rem;
     color: whitesmoke;
