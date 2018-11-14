@@ -27,7 +27,18 @@
                 <span>Hi, i know i know i know i know i know this is my home page</span>
             </section>
             <section hidden id="blog">Este es mi blog</section>
-            <section hidden id="contact">ESte es mi contacto</section>
+            <section hidden id="contact">
+                <form action="#">
+                    <h1>Contact us</h1>
+                    <label for="email">Correo</label>
+                    <input type="text" name="email" id="email" value="@email">
+                    <br>
+                    <label for="acepto">Acepto los terminos</label>
+                    <input type="checkbox" name="acepto" id="acepto" value="">
+                    <br>
+                    <button id="enviar" onclick="sendData()">Enviar</button>
+                </form>
+            </section>
 
         </span>
     </section>
